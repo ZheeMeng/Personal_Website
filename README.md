@@ -1,2 +1,2 @@
 # Kidocode
-Kidocode stuff
+Personal website built by learning basic html and css.
