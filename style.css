@@ -21,33 +21,43 @@ body{
     width: 200px;
     height: 200px;
 }
-.box h1{
+.box .name{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
 }
-.box h5{
+.box .occupation{
     font-size: 20px;
     font-weight: 100;
 }
-.box p{
+.box .introduction{
     text-align: justify;
 }
-ul{
-    margin: 0;
-    padding: 0;
-}
-.box li{
+.box .github{
     display: inline-block;
-    margin: 6px;
+    margin: 10px;
     list-style: none;
 }
-.box li i{
+.box .github i{
     color: white;
     text-decoration: none;
     font-size: 60px;
     transition: all ease-in-out 250ms;
 }
-.box li i:hover{
-    color: gray;
+.box .github i:hover{
+    filter: brightness(80%);
+}
+.box .linkedin{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+}
+.box .linkedin i{
+    color: #00a0dc;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box .linkedin i:hover{
+    filter: brightness(80%);
 }
